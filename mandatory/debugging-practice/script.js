@@ -26,6 +26,8 @@ function submit() {
   if (
     title.value === null ||
     title.value === "" ||
+    author.value === null ||
+    author.value === "" ||
     pages.value === null ||
     pages.value === ""
   ) {
